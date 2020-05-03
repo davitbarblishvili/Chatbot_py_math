@@ -1,0 +1,318 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, nice to see you", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+
+        {
+            "tag": "Trig Identities",
+            "patterns": ["Trig identities", "tell me trig idnetities", "what are some trigonometric identities"],
+            "responses": ["sin\u00B2(a) + cos\u00B2(a) = 1\u0085 tan\u00B2(a) + 1 = sec\u00B2(a)\u0085 1+cot\u00B2(a)=csc\u00B2(a)"],
+            "context": [""]
+        },
+
+        {
+            "tag": "Pythagorean formula",
+            "patterns": [
+                "Pythagorean formula",
+                "tell me Pythagorean formula"
+            ],
+            "responses": [
+                "a\u00B2+b\u00B2=c\u00B2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["I can help you with math definition and formulas; please, tell me which formula would you like me to look up for you"],
+            "context": [""]
+        },
+        {
+            "tag": "Distance between two points",
+            "patterns": ["Tell me distance formula", "distance formula", "distance between two points", "two points distance"],
+            "responses": ["d=\u221A(x\u2082-x\u2081)\u00B2+(y\u2082-y\u2081)\u00B2"],
+            "context": [""]
+        },
+
+        {
+            "tag": "Slope of a line",
+            "patterns": [
+                "Tell me formula for a slope",
+                "Tell me slope formula",
+                "How to find a slope of a line",
+                "slope of a line"
+            ],
+            "responses": [
+                "m=y\u2082-y\u2081\u2044x\u2082-x\u2081"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Area of Triangle",
+            "patterns": [
+                "Tell me triangle area",
+                "are of triangle",
+                "what is area of triangle"
+            ],
+            "responses": [
+                "A = 1/2 x base x height"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Area of Circle",
+            "patterns": [
+                "Tell me circle area",
+                "are of circle",
+                "what is area of circle"
+            ],
+            "responses": [
+                "A = \u03C0r\u00B2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Sin value pi/6",
+            "patterns": [
+                "Tell me sin value of pi/6",
+                "value of pi/6",
+                "what is sin pi/6"
+            ],
+            "responses": [
+                "1/2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Sin value pi/4",
+            "patterns": [
+                "Tell me sin value of pi/4",
+                "value of pi/4",
+                "what is sin pi/4",
+                "sin(pi/4)"
+            ],
+            "responses": [
+                "\u221A2/2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Sin value pi/3",
+            "patterns": [
+                "Tell me sin value of pi/3",
+                "value of pi/3",
+                "what is sin pi/3"
+            ],
+            "responses": [
+                "\u221A3/2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Sin value pi",
+            "patterns": [
+                "Tell me sin value of pi",
+                "value of pi",
+                "what is sin pi"
+            ],
+            "responses": [
+                "0"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cos value pi/6",
+            "patterns": [
+                "Tell me cos value of pi/6",
+                "value of pi/6",
+                "what is cos pi/6"
+            ],
+            "responses": [
+                "\u221A3/2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cos value pi/4",
+            "patterns": [
+                "Tell me cos value of pi/4",
+                "value of pi/4",
+                "what is cos pi/4"
+            ],
+            "responses": [
+                "\u221A3/2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cos value pi/3",
+            "patterns": [
+                "Tell me cos value of pi/3",
+                "value of pi/3",
+                "what is cos pi/3"
+            ],
+            "responses": [
+                "1/2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cos value pi",
+            "patterns": [
+                "Tell me cos value of pi",
+                "value of pi",
+                "what is cos pi"
+            ],
+            "responses": [
+                "1"
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "tan value pi/6",
+            "patterns": [
+                "Tell me tan value of pi/6",
+                "value of pi/6",
+                "what is tan pi/6"
+            ],
+            "responses": [
+                "\u221A3/3"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tan value pi/4",
+            "patterns": [
+                "Tell me cos value of pi/4",
+                "value of pi/4",
+                "what is cos pi/4"
+            ],
+            "responses": [
+                "1"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tan value pi/3",
+            "patterns": [
+                "Tell me cos value of pi/3",
+                "value of pi/3",
+                "what is cos pi/3"
+            ],
+            "responses": [
+                "\u221A3"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tan value pi",
+            "patterns": [
+                "Tell me cos value of pi",
+                "value of pi",
+                "what is cos pi"
+            ],
+            "responses": [
+                "\u221A3"
+            ],
+            "context": [
+                "0"
+            ]
+        },
+        {
+            "tag": "Area of Rectangle",
+            "patterns": [
+                "Tell me rectangle area",
+                "are of rectangle",
+                "what is area of rectangle"
+            ],
+            "responses": [
+                "A = length x Width"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Area of Parallelogram",
+            "patterns": [
+                "Tell me Parallelogram area",
+                "are of Parallelogram",
+                "what is area of Parallelogram"
+            ],
+            "responses": [
+                "A = base x height"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Area of Trapezoid",
+            "patterns": [
+                "Tell me Trapezoidarea",
+                "are of Trapezoid",
+                "what is area of Trapezoid"
+            ],
+            "responses": [
+                "A = 1/2(base\u2081 x base\u2082)"
+            ],
+            "context": [
+                ""
+            ]
+        }
+
+    ]
+}
